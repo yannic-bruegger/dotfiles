@@ -1,0 +1,14 @@
+10
+
+https://www.reddit.com/
+https://www.reddit.com/sw.js
+true
+{038f227a-971f-440d-b772-330d338aa3ec}
+1
+1762048122780077
+1762048122782885
+1762048122714364
+0
+true
+0
+#
