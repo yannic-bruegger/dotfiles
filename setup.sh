@@ -11,11 +11,12 @@ sudo cp ./etc/greetd/config.toml /etc/greetd/config.toml
 
 # Setup base tools
 
-sudo pacman -S --needed --noconfirm git stow yay zsh nvim  ghostty zen-browser ttf-cascadia-code-nerd github-cli 
+sudo pacman -S --needed --noconfirm git stow yay zsh nvim claude-code ghostty zen-browser ttf-cascadia-code-nerd github-cli wl-clipboard 
 stow zsh
 stow ghostty
 stow zen
 stow git
+stow claude
 
 # Setup composer
 

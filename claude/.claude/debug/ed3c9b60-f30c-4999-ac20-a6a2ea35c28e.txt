@@ -1,0 +1,171 @@
+[ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/home/yannic/.claude.json'
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116361158
+[DEBUG] Setting permissions for new file: 600
+[DEBUG] Temp file written successfully, size: 103 bytes
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116361158 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116361172
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 183 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116361172 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116361177
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 220 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116361177 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Total LSP servers loaded: 0
+[DEBUG] LSP manager initialized with 0 servers
+[DEBUG] LSP server manager initialized successfully
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/yannic/.claude/skills, project=/home/yannic/dotfiles/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for zsh (/usr/bin/zsh)
+[DEBUG] Looking for shell config file: /home/yannic/.zshrc
+[DEBUG] Snapshots directory: /home/yannic/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/yannic/.claude/shell-snapshots/snapshot-zsh-1762116361251-n8k1pn.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/yannic/.claude/todos/ed3c9b60-f30c-4999-ac20-a6a2ea35c28e-agent-ed3c9b60-f30c-4999-ac20-a6a2ea35c28e.json.tmp.18115.1762116361257
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/yannic/.claude/todos/ed3c9b60-f30c-4999-ac20-a6a2ea35c28e-agent-ed3c9b60-f30c-4999-ac20-a6a2ea35c28e.json.tmp.18115.1762116361257 to /home/yannic/.claude/todos/ed3c9b60-f30c-4999-ac20-a6a2ea35c28e-agent-ed3c9b60-f30c-4999-ac20-a6a2ea35c28e.json
+[DEBUG] File /home/yannic/.claude/todos/ed3c9b60-f30c-4999-ac20-a6a2ea35c28e-agent-ed3c9b60-f30c-4999-ac20-a6a2ea35c28e.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Shell snapshot created successfully (51395 bytes)
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116361448
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35098 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116361448 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116361491
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35172 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116361491 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116361493
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35224 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116361493 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116361495
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35254 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116361495 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[ERROR] Error streaming, falling back to non-streaming mode: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+[ERROR] Error streaming, falling back to non-streaming mode: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+[ERROR] Error streaming, falling back to non-streaming mode: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+[ERROR] Error in non-streaming fallback: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+[ERROR] Error: Error: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+    at Ck.validateHeaders (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:930)
+    at Ck.buildHeaders (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:8412)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Ck.buildRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:7470)
+    at async Ck.makeRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:3309)
+    at async seA.model (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:14755)
+    at async seA (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:2743:39781)
+    at async hd2 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:14909)
+    at async file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:8414
+    at async re1 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:1970)
+[ERROR] Error in non-streaming fallback: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+[ERROR] Error: Error: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+    at Ck.validateHeaders (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:930)
+    at Ck.buildHeaders (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:8412)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Ck.buildRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:7470)
+    at async Ck.makeRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:3309)
+    at async seA.model (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:14755)
+    at async seA (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:2743:39781)
+    at async hd2 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:14909)
+    at async file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:8646
+    at async re1 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:1970)
+[ERROR] Error in non-streaming fallback: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+[ERROR] Error: Error: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+    at Ck.validateHeaders (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:930)
+    at Ck.buildHeaders (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:8412)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Ck.buildRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:7470)
+    at async Ck.makeRequest (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:359:3309)
+    at async seA.model (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:14755)
+    at async seA (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:2743:39781)
+    at async hd2 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:14909)
+    at async file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:8646
+    at async re1 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:3395:1970)
+[DEBUG] Skipping SubagentStop hook execution - workspace trust not accepted
+[DEBUG] Skipping SubagentStop hook execution - workspace trust not accepted
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116377887
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35254 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116377887 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116377898
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35254 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116377898 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] Telemetry flushed successfully
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116680237
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35254 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116680237 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116680248
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35254 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116680248 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116680456
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35533 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116680456 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116680681
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35661 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116680681 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116681020
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35722 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116681020 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Skipping Notification hook execution - workspace trust not accepted
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116716667
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35763 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116716667 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18115.1762116716679
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35834 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18115.1762116716679 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Skipping SessionEnd:other hook execution - workspace trust not accepted
+[DEBUG] Cleaned up session snapshot: /home/yannic/.claude/shell-snapshots/snapshot-zsh-1762116361251-n8k1pn.sh
+[DEBUG] LSP server manager shut down successfully
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] BigQuery metrics exporter shutdown complete

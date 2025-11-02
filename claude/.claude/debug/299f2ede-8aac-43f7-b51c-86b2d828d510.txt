@@ -1,0 +1,196 @@
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Total LSP servers loaded: 0
+[DEBUG] LSP manager initialized with 0 servers
+[DEBUG] LSP server manager initialized successfully
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/yannic/.claude/skills, project=/home/yannic/dotfiles/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for zsh (/usr/bin/zsh)
+[DEBUG] Looking for shell config file: /home/yannic/.zshrc
+[DEBUG] Snapshots directory: /home/yannic/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/yannic/.claude/shell-snapshots/snapshot-zsh-1762116778188-msgbnu.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/yannic/.claude/todos/299f2ede-8aac-43f7-b51c-86b2d828d510-agent-299f2ede-8aac-43f7-b51c-86b2d828d510.json.tmp.18925.1762116778199
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/yannic/.claude/todos/299f2ede-8aac-43f7-b51c-86b2d828d510-agent-299f2ede-8aac-43f7-b51c-86b2d828d510.json.tmp.18925.1762116778199 to /home/yannic/.claude/todos/299f2ede-8aac-43f7-b51c-86b2d828d510-agent-299f2ede-8aac-43f7-b51c-86b2d828d510.json
+[DEBUG] File /home/yannic/.claude/todos/299f2ede-8aac-43f7-b51c-86b2d828d510-agent-299f2ede-8aac-43f7-b51c-86b2d828d510.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Shell snapshot created successfully (51395 bytes)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116778369
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35834 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116778369 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116778388
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35834 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116778388 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116778390
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35834 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116778390 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116778396
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 35834 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116778396 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116778618
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36010 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116778618 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116780889
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36054 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116780889 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Skipping SubagentStop hook execution - workspace trust not accepted
+[DEBUG] Skipping SubagentStop hook execution - workspace trust not accepted
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116787323
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36499 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116787323 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116787339
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36530 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116787339 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116787345
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36550 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116787345 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116787415
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36550 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116787415 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116787418
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36586 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116787418 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116787420
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36586 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116787420 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] performStartupChecks called
+[DEBUG] Starting background plugin installations
+[DEBUG] performBackgroundPluginInstallations called
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116787458
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36616 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116787458 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116787461
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36721 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116787461 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116787560
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36721 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116787560 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for 8df47d70-2b62-409d-8930-1d3839424bed, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+    at $D (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1180:4413)
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1180:4141
+    at Array.map (<anonymous>)
+    at _F (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1180:4132)
+    at JSQ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1802:6548)
+    at kw (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:74:19414)
+    at ro (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:76:42806)
+    at v9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:76:38347)
+    at nc (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:76:38275)
+    at cw (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:76:38129)
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116827845
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36770 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116827845 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116827868
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36808 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116827868 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: /home/yannic/.claude/shell-snapshots/snapshot-zsh-1762116778188-msgbnu.sh
+[DEBUG] LSP server manager shut down successfully
+[DEBUG] FileHistory: Making snapshot for message 70354453-0103-4586-9500-44e90ce700d2
+[DEBUG] FileHistory: Added snapshot for 70354453-0103-4586-9500-44e90ce700d2, tracking 0 files
+[DEBUG] Rendering user message with 1 content blocks
+[DEBUG] Block 0: <command-name>/exit</command-name>
+            <command-message>exit</command-message>
+            <...
+[DEBUG] UserCommandMessage rendering: "exit" (args: "none")
+[DEBUG] isSkillFormat: false, prefix: "/"
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116848829
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36833 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116848829 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/yannic/.claude.json.tmp.18925.1762116848841
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37266 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/.claude.json.tmp.18925.1762116848841 to /home/yannic/.claude.json
+[DEBUG] File /home/yannic/.claude.json written atomically

@@ -1,0 +1,486 @@
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Total LSP servers loaded: 0
+[DEBUG] LSP manager initialized with 0 servers
+[DEBUG] LSP server manager initialized successfully
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/yannic/.claude/skills, project=/home/yannic/dotfiles/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for zsh (/usr/bin/zsh)
+[DEBUG] Looking for shell config file: /home/yannic/.zshrc
+[DEBUG] Snapshots directory: /home/yannic/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/yannic/.claude/shell-snapshots/snapshot-zsh-1762117569598-n29f9r.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/yannic/.claude/todos/780f3efa-bbb6-47e6-93ee-0ed6f8285115-agent-780f3efa-bbb6-47e6-93ee-0ed6f8285115.json.tmp.20625.1762117569606
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/yannic/.claude/todos/780f3efa-bbb6-47e6-93ee-0ed6f8285115-agent-780f3efa-bbb6-47e6-93ee-0ed6f8285115.json.tmp.20625.1762117569606 to /home/yannic/.claude/todos/780f3efa-bbb6-47e6-93ee-0ed6f8285115-agent-780f3efa-bbb6-47e6-93ee-0ed6f8285115.json
+[DEBUG] File /home/yannic/.claude/todos/780f3efa-bbb6-47e6-93ee-0ed6f8285115-agent-780f3efa-bbb6-47e6-93ee-0ed6f8285115.json written atomically
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117569624
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36872 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117569624 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Summarizing all 3 messages (~38902 tokens)
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117569868
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36872 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117569868 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117569874
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36872 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117569874 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117569884
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36872 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117569884 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Shell snapshot created successfully (51413 bytes)
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570307
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36872 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570307 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570426
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36767 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570426 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570437
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36767 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570437 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570442
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36767 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570442 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] performStartupChecks called
+[DEBUG] Starting background plugin installations
+[DEBUG] performBackgroundPluginInstallations called
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570511
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36767 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570511 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570517
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36872 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117570517 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for f87724ec-8747-4ccb-9fda-b81f7a584c4d, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Grep
+[DEBUG] Getting matching hook commands for PreToolUse with query: Grep
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] No hook environment files found
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Grep
+[DEBUG] Getting matching hook commands for PreToolUse with query: Grep
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "test:*"
+      },
+      {
+        "toolName": "Bash",
+        "ruleContent": "cat:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "cat:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "pgrep:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117683104
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36896 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117683104 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 4cb6bcd9-181d-452c-98fb-1eb692c4b335
+[DEBUG] FileHistory: Added snapshot for 4cb6bcd9-181d-452c-98fb-1eb692c4b335, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+    at $D (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1180:4413)
+    at file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1180:4141
+    at Array.map (<anonymous>)
+    at _F (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1180:4132)
+    at JSQ (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:1802:6548)
+    at kw (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:74:19414)
+    at ro (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:76:42806)
+    at v9 (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:76:38347)
+    at nc (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:76:38275)
+    at cw (file:///usr/lib/node_modules/@anthropic-ai/claude-code/cli.js:76:38129)
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117706785
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36918 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117706785 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117706816
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36941 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117706816 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message f9169161-7aa0-44a3-83e3-d7f75272d6aa
+[DEBUG] FileHistory: Added snapshot for f9169161-7aa0-44a3-83e3-d7f75272d6aa, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "pgrep:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "wl-copy:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Stream started - received first chunk
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117808614
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 36970 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117808614 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117823361
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37007 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117823361 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117823446
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37027 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117823446 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: unknown, using native: false
+[DEBUG] npm view failed with code 1
+[DEBUG] npm stderr: (empty)
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: /home/yannic/.claude/shell-snapshots/snapshot-zsh-1762117569598-n29f9r.sh
+[DEBUG] LSP server manager shut down successfully
+[DEBUG] FileHistory: Making snapshot for message fb1f0d1d-63cb-47f8-aac3-3038baa6a55c
+[DEBUG] FileHistory: Added snapshot for fb1f0d1d-63cb-47f8-aac3-3038baa6a55c, tracking 0 files
+[DEBUG] Rendering user message with 1 content blocks
+[DEBUG] Block 0: <command-name>/exit</command-name>
+            <command-message>exit</command-message>
+            <...
+[DEBUG] UserCommandMessage rendering: "exit" (args: "none")
+[DEBUG] isSkillFormat: false, prefix: "/"
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117833533
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37050 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117833533 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
+[DEBUG] Writing through symlink: /home/yannic/.claude.json -> /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] Writing to temp file: /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117833547
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 37450 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/yannic/dotfiles/claude/.claude.json.tmp.20625.1762117833547 to /home/yannic/dotfiles/claude/.claude.json
+[DEBUG] File /home/yannic/dotfiles/claude/.claude.json written atomically
