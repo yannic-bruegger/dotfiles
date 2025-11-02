@@ -15,6 +15,7 @@ sudo pacman -S --needed --noconfirm git stow yay zsh ghostty zen-browser ttf-cas
 stow zsh
 stow ghostty
 stow zen
+stow git
 
 # Setup composer
 
