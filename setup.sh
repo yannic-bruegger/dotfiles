@@ -37,3 +37,4 @@ yay -S --needed --noconfirm clipse bibata-cursor-theme-bin
 
 stow clipse
 stow waybar
+stow yazi
