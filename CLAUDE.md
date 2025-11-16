@@ -115,6 +115,7 @@ Autostart processes (in `exec-once` blocks):
 - `clipse -listen` - Clipboard daemon
 - `~/dotfiles/hyprland/swww.sh` - Wallpaper manager script
 - `hypridle` - Idle/lock manager
+- `udiskie` - Automount daemon for removable media (USB drives, SD cards)
 
 ### Git Credential Management
 
@@ -163,6 +164,7 @@ sudo pacman -Syu
 All required packages are listed in `setup.sh`. Core dependencies include:
 - **Wayland/Hyprland**: hyprland, xdg-desktop-portal-hyprland, qt5-wayland, qt6-wayland
 - **Audio**: pipewire, wireplumber
+- **Desktop Utilities**: waybar, swww, hyprlauncher, hypridle, hyprlock, clipse, udiskie
 - **CLI Tools**: fd, ripgrep, fzf, zoxide, yazi, jq
 - **Development**: git, github-cli, nvim, claude-code
 

@@ -31,7 +31,7 @@ sudo pacman -S --needed --noconfirm pipewire wireplumber swaync xdg-desktop-port
 
 # Hyprland nice to have
 
-sudo pacman -S --needed --noconfirm waybar swww hyprlauncher hyprpicker hypridle hyprlock  yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
+sudo pacman -S --needed --noconfirm waybar swww hyprlauncher hyprpicker hypridle hyprlock  yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick udiskie
 
 yay -S --needed --noconfirm clipse bibata-cursor-theme-bin
 
