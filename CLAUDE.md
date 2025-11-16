@@ -117,6 +117,33 @@ Autostart processes (in `exec-once` blocks):
 - `hypridle` - Idle/lock manager
 - `udiskie` - Automount daemon for removable media (USB drives, SD cards)
 
+### Keybindings
+
+Important keybindings configured in `hyprland.conf`:
+
+**Applications:**
+- `Super + Return`: Open terminal (ghostty)
+- `Super + E`: Open file manager (yazi in terminal)
+- `Super + B`: Launch browser (zen-browser)
+- `Super + Space`: Application launcher (hyprlauncher)
+- `Super + V`: Clipboard manager (clipse)
+
+**Window Management:**
+- `Super + Q`: Kill active window
+- `Super + M`: Exit Hyprland
+- `Super + F`: Toggle floating mode
+- `Super + Arrow Keys`: Move focus between windows
+- `Super + Alt + Arrow Keys`: Resize active window (40px steps)
+
+**Workspaces:**
+- `Super + [0-9]`: Switch to workspace 1-10
+- `Super + Shift + [0-9]`: Move window to workspace 1-10
+
+**System:**
+- `Super + Shift + R`: Reload Hyprland configuration
+
+**Note:** Removable media mounted by udiskie can be accessed at `/run/media/yannic/`
+
 ### Git Credential Management
 
 Git uses GitHub CLI for credential handling (see `git/.gitconfig`):
