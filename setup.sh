@@ -31,7 +31,8 @@ sudo pacman -S --needed --noconfirm pipewire wireplumber swaync xdg-desktop-port
 
 # Hyprland nice to have
 
-sudo pacman -S --needed --noconfirm waybar swww hyprlauncher hyprpicker hypridle hyprlock  yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick udiskie
+sudo pacman -S --needed --noconfirm waybar swww hyprlauncher hyprpicker hypridle hyprlock  yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick udiskie bluez bluez-utils blueman
+sudo systemctl enable bluetooth.service
 
 yay -S --needed --noconfirm clipse bibata-cursor-theme-bin
 

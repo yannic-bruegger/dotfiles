@@ -3,7 +3,7 @@
     "height": 25,
     "modules-left": ["hyprland/workspaces", "hyprland/window"], 
     "modules-center": ["clock"],
-    "modules-right": ["battery"],
+    "modules-right": ["tray", "battery"],
     "sway/window": {
         "max-length": 50
     },
@@ -13,5 +13,9 @@
     },
     "clock": {
         "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "tray": {
+        "icon-size": 16,
+        "spacing": 10
     }
 }
