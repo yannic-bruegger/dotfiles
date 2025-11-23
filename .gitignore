@@ -1,0 +1,26 @@
+# Claude Code runtime files
+claude/.claude.json
+claude/.claude.json.backup
+claude/.claude/debug/
+claude/.claude/shell-snapshots/
+claude/.claude/todos/
+claude/.claude/history.jsonl
+claude/.claude/.credentials.json
+claude/.claude/statsig/
+
+# Zen browser runtime data
+zen/.zen/**/storage/
+zen/.zen/**/*.sqlite
+zen/.zen/**/*.sqlite-shm
+zen/.zen/**/*.sqlite-wal
+zen/.zen/**/*.db
+zen/.zen/**/*.bin
+zen/.zen/**/*.lz4
+zen/.zen/**/lock
+zen/.zen/**/cookies.*
+zen/.zen/**/cache/
+zen/.zen/**/sessionstore-backups/
+zen/.zen/**/bookmarkbackups/
+
+# Clipse clipboard history
+clipse/.config/clipse/clipboard_history.json
