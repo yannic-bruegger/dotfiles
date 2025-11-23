@@ -3,7 +3,7 @@
     "height": 25,
     "modules-left": ["hyprland/workspaces", "hyprland/window"], 
     "modules-center": ["clock"],
-    "modules-right": ["tray", "battery"],
+    "modules-right": ["bluetooth", "pulseaudio", "battery"],
     "sway/window": {
         "max-length": 50
     },
@@ -12,10 +12,29 @@
         "format-icons": ["", "", "", "", ""]
     },
     "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+        "format-alt": "{:%a, %d. %b  %H:%M}",
+        "tooltip-format": "{:%a, %d. %b  %H:%M}"
     },
     "tray": {
         "icon-size": 16,
         "spacing": 10
+    },
+    "bluetooth": {
+    	"format-on": "󰂯",
+	"format-no-controller": "󰂲 not found",
+        "format-connected": "󰂱",
+        "format-disabled": "󰂲",
+	"format-off": "󰂲",
+        "on-click-right": "~/dotfiles/hyprland/toggle-blueman.sh",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+    },
+    "pulseaudio": {
+    	"format": "{volume}% {icon}",
+	"format-bluetooth": "{volume}% {icon}",
+	"format-muted": "",
+	"format-icons": ["", "", ""],
+	"reverse-scrolling": true
     }
 }
