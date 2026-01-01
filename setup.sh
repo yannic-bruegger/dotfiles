@@ -11,7 +11,7 @@ sudo cp ./etc/greetd/config.toml /etc/greetd/config.toml
 
 # Setup base tools
 
-sudo pacman -S --needed --noconfirm git stow yay zsh nvim claude-code ghostty zen-browser ttf-cascadia-code-nerd github-cli wl-clipboard vscode pnpm goxlr-utility 
+sudo pacman -S --needed --noconfirm git stow yay zsh nvim claude-code ghostty zen-browser ttf-cascadia-code-nerd github-cli wl-clipboard vscode pnpm goxlr-utility pass dmenu-wayland-git
 stow zsh
 stow ghostty
 stow zen
@@ -36,7 +36,7 @@ sudo pacman -S --needed --noconfirm pipewire wireplumber swaync xdg-desktop-port
 
 # Hyprland nice to have
 
-sudo pacman -S --needed --noconfirm waybar swww hyprlauncher hyprpicker hypridle hyprlock  yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick udiskie bluez bluez-utils blueman network-manager-applet
+sudo pacman -S --needed --noconfirm waybar swww hyprlauncher hyprpicker hypridle hyprlock  yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick udiskie bluez bluez-utils blueman network-manager-applet brightnessctl
 sudo systemctl enable bluetooth.service
 
 yay -S --needed --noconfirm clipse bibata-cursor-theme-bin
