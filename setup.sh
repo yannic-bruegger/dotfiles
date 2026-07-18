@@ -11,12 +11,19 @@ sudo cp ./etc/greetd/config.toml /etc/greetd/config.toml
 
 # Setup base tools
 
-sudo pacman -S --needed --noconfirm git stow yay zsh nvim claude-code ghostty zen-browser ttf-cascadia-code-nerd github-cli wl-clipboard vscode pnpm goxlr-utility pass dmenu-wayland-git
+sudo pacman -S --needed --noconfirm git stow yay zsh nvim claude-code ghostty zen-browser ttf-cascadia-code-nerd github-cli wl-clipboard vscode pnpm goxlr-utility pass tesseract-data-deu tesseract-data-eng bitwarden-cli gnome-keyring claude-code
 stow zsh
 stow ghostty
 stow zen
 stow git
 stow claude
+
+
+# Setup Docker
+
+sudo pacman -S --needed --noconfirm docker docker-compose
+sudo systemctl enable docker.service
+sudo usermod -aG docker yannic
 
 
 # Setup tidal (music coding)
@@ -39,8 +46,9 @@ sudo pacman -S --needed --noconfirm pipewire wireplumber swaync xdg-desktop-port
 sudo pacman -S --needed --noconfirm waybar swww hyprlauncher hyprpicker hypridle hyprlock  yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick udiskie bluez bluez-utils blueman network-manager-applet brightnessctl
 sudo systemctl enable bluetooth.service
 
-yay -S --needed --noconfirm clipse bibata-cursor-theme-bin
+yay -S --needed --noconfirm clipse bibata-cursor-theme-bin element-desktop uair
 
 stow clipse
 stow waybar
 stow yazi
+stow uair

@@ -31,8 +31,17 @@ tooltip label {
     border-bottom: 3px solid white;
 }
 
-#mode, #clock, #battery, #bluetooth {
+#mode, #clock, #battery, #bluetooth, #custom-uair {
     padding: 0 10px;
+}
+
+#clock {
+    padding-right: 3px;
+}
+
+#custom-uair {
+    padding-left: 0;
+    color: #f38ba8;
 }
 
 #mode {

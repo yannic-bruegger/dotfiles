@@ -2,8 +2,17 @@
     "layer": "top",
     "height": 25,
     "modules-left": ["hyprland/workspaces", "hyprland/window"], 
-    "modules-center": ["clock"],
+    "modules-center": ["clock", "custom/uair"],
     "modules-right": ["network", "bluetooth", "pulseaudio", "battery", "tray"],
+    "custom/uair": {
+        "exec": "uair",
+        "format": " ({})",
+        "on-click": "uairctl toggle",
+        "on-click-right": "uairctl jump work",
+        "on-scroll-up": "uairctl next",
+        "on-scroll-down": "uairctl prev",
+        "tooltip": false
+    },
     "sway/window": {
         "max-length": 50
     },

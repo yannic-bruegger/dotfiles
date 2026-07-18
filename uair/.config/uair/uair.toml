@@ -1,0 +1,28 @@
+# Pomodoro timer config for uair — https://github.com/metent/uair
+#
+# The daemon is launched by the Waybar `custom/uair` module and streams the
+# remaining time once per second. Control it with `uairctl` (see keybinds /
+# Waybar click handlers):
+#   uairctl toggle     # start / pause
+#   uairctl next|prev  # switch session
+#   uairctl jump work  # jump to a session by id
+
+[defaults]
+# {state} = play/pause glyph, {time} = remaining time (mm:ss).
+format = "{state} {time}\n"
+paused_state_text = ""
+resumed_state_text = ""
+
+[[sessions]]
+id = "work"
+name = "Fokus"
+duration = "25m"
+# Focus finished → notify and auto-start the break.
+command = "notify-send -u critical '🍅 Fokus vorbei' 'Zeit für eine Pause!' && uairctl jump rest && uairctl resume"
+
+[[sessions]]
+id = "rest"
+name = "Pause"
+duration = "5m"
+# Break finished → notify and load focus again (paused, waiting for you).
+command = "notify-send -u critical '☕ Pause vorbei' 'Weiter geht’s!' && uairctl jump work"
