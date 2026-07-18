@@ -5,7 +5,7 @@
     "modules-center": ["clock", "custom/uair"],
     "modules-right": ["network", "bluetooth", "pulseaudio", "battery", "tray"],
     "custom/uair": {
-        "exec": "uair",
+        "exec": "~/.config/uair/uair-bar.sh",
         "format": " ({})",
         "on-click": "uairctl toggle",
         "on-click-right": "uairctl jump work",
