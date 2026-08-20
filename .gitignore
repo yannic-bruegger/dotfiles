@@ -21,20 +21,18 @@ claude/.claude/stats-cache.json
 claude/.claude/policy-limits.json
 claude/.claude/remote-settings.json
 claude/.claude/mcp-needs-auth-cache.json
+# Plugin-Marktplaetze sind fremde git-Klone
+claude/.claude/plugins/marketplaces/
 
-# Zen browser runtime data
-zen/.zen/**/storage/
-zen/.zen/**/*.sqlite
-zen/.zen/**/*.sqlite-shm
-zen/.zen/**/*.sqlite-wal
-zen/.zen/**/*.db
-zen/.zen/**/*.bin
-zen/.zen/**/*.lz4
-zen/.zen/**/lock
-zen/.zen/**/cookies.*
-zen/.zen/**/cache/
-zen/.zen/**/sessionstore-backups/
-zen/.zen/**/bookmarkbackups/
+# Clipse: Zwischenablage-Inhalte
+clipse/.config/clipse/tmp_files/
+
+# Zen-Browser-Profil: KOMPLETT ignoriert.
+# Frueher standen hier Einzelmuster - dabei sind cookies.sqlite, key4.db,
+# places.sqlite und formhistory.sqlite trotzdem in einem oeffentlichen Repo
+# gelandet. Ein Profilverzeichnis laesst sich nicht selektiv sicher machen.
+# Einzelne Dateien bewusst aufnehmen: git add -f <pfad>
+zen/.zen/
 
 # Clipse clipboard history
 clipse/.config/clipse/clipboard_history.json
